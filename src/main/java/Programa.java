@@ -11,7 +11,7 @@ public class Programa {
         Endereco endereco = new Endereco("Rua J", "Bairro J", 062);
 
         //Adicionar pessoas com JPA
-        Pessoa p1 = new Pessoa("Marcos soares","laura_fiel@gmail.com", endereco);
+        Pessoa p1 = new Pessoa("laura fiel","laura_fiel@gmail.com",endereco);
 
 
         //modo correto de usar o EntityManager
