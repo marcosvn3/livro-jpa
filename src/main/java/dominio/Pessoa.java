@@ -16,13 +16,16 @@ public class Pessoa implements Serializable {
     private String nome;
     private String emai;
 
+    @Embedded
+    private Endereco endereco;
+
     public Pessoa() {
     }
 
-    public Pessoa( String nome, String emai) {
-
+    public Pessoa(String nome, String emai, Endereco endereco) {
         this.nome = nome;
         this.emai = emai;
+        this.endereco = endereco;
     }
 
     public int getId() {
